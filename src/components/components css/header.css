@@ -38,7 +38,7 @@
 .header-content button:last-of-type {
   background: #f0f4f6;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .header-content h1 {
     font-size: 1.3rem;
 

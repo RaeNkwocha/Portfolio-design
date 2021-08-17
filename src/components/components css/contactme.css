@@ -147,7 +147,7 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .contact-me {
     display: flex;
     justify-content: space-evenly;

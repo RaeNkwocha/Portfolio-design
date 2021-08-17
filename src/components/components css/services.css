@@ -60,7 +60,7 @@
   width: 50%;
   object-fit: 1/1;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .services {
     display: flex;
     justify-content: space-evenly;
