@@ -41,13 +41,13 @@
 @media (max-width: 600px) {
   .header-content h1 {
     font-size: 1.3rem;
-    width: 80%;
+    width: 89%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
   .header-content {
     width: 100%;
-    padding: 50px;
+    padding: 30px;
 
     padding-top: 75px;
   }
