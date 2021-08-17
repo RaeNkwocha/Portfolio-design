@@ -41,19 +41,19 @@
 @media (max-width: 600px) {
   .header-content h1 {
     font-size: 1.3rem;
-
+    padding-right: 100px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
   .header-content {
     width: 100%;
-    padding: 20px;
 
     padding-top: 75px;
   }
   .header-content p {
     font-size: 0.5rem;
     padding-bottom: 0.5rem;
+    padding-right: 100px;
   }
   .header-content button {
     background: #c4c4c4;
