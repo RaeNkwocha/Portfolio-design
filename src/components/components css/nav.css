@@ -61,8 +61,8 @@ nav h3 {
     z-index: -100;
     margin-right: 10px;
     margin-left: 10px;
+
     color: white;
-    transition: 1s ease-in-out all;
   }
   .modal ul {
     padding: 10px;
