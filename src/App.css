@@ -12,6 +12,8 @@ p {
 h5 {
   font-family: "Poppins", sans-serif;
 }
-h1 h3 {
-  font-family: "MetropolisNF", sans-serif;
+
+h1,
+h3 {
+  font-weight: 700;
 }

@@ -10,6 +10,7 @@
   background-color: #f0f4f7;
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 .header-content {
   width: 80%;
@@ -17,9 +18,14 @@
 
   /* padding-top: 65px; */
 }
+.header-content h5 {
+  font-family: "Metropolis", sans-serif;
+  font-weight: lighter;
+}
 .header-content h1 {
   font-size: 1.7rem;
-
+  font-weight: 800;
+  letter-spacing: -0.1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -33,6 +39,7 @@
   box-sizing: border-box;
   border-radius: 3px;
   padding: 8px;
+  width: 95px;
   margin-right: 20px;
 }
 .header-content button:last-of-type {
@@ -40,7 +47,10 @@
 }
 @media (max-width: 600px) {
   .header-content h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.1rem;
+
     width: 89%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;

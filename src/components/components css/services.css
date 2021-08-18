@@ -37,7 +37,7 @@
 }
 .my-services {
   width: 220px;
-  height: 200px;
+  height: 220px;
   margin-top: 1rem;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(219, 226, 241, 0.8);
@@ -59,6 +59,12 @@
   margin: auto;
   width: 50%;
   object-fit: 1/1;
+}
+.my-services p {
+  padding: 15px;
+}
+.my-services h3 {
+  padding-top: 15px;
 }
 @media (max-width: 600px) {
   .services {
@@ -91,7 +97,7 @@
     margin: auto;
   }
   .flex-2 {
-    padding-left: 5px;
+    margin-left: -80px;
   }
   .h3 {
     font-size: 16px;

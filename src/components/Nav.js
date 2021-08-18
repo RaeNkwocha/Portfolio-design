@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./components css/nav.css";
 const Nav = () => {
+  const [modal, setModal] = useState(false);
+  const toggleModal = () => {
+    setModal(!modal);
+    console.log("hey");
+  };
   return (
     <>
       <nav className="nav">
@@ -11,7 +16,19 @@ const Nav = () => {
           <li>Portfolio</li>
           <li>Contact</li>
         </ul>
+        <button onClick={toggleModal}>modal</button>
       </nav>
+      {modal ? (
+        <div className="modal">
+          {" "}
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      ) : null}
     </>
   );
 };
