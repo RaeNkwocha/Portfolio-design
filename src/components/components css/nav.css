@@ -38,7 +38,7 @@ nav h3 {
   }
   .nav ul {
     display: flex;
-    display: none;
+    /* display: none; */
     justify-content: space-around;
     list-style: none;
     grid-gap: 0.5rem;
@@ -48,6 +48,9 @@ nav h3 {
     cursor: pointer;
     margin-right: 1rem;
     font-weight: bold;
+  }
+  .ul li {
+    display: none;
   }
 
   .modal {

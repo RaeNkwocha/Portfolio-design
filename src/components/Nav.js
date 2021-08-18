@@ -10,7 +10,7 @@ const Nav = () => {
     <>
       <nav className="nav">
         <h3>la cartera</h3>
-        <ul>
+        <ul className="ul">
           <li>Home</li>
           <li>About</li>
           <li>Portfolio</li>
