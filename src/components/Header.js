@@ -8,12 +8,8 @@ const Header = () => {
       <header className="header">
         <main className="header-content">
           <h5>Get Every Single Solution.</h5>
-          <img
-            src={text}
-            alt=""
-            style={{ width: "100%", paddingTop: "10px" }}
-          ></img>
-          {/* <h1>Hi, I’m Victor, I’m a Product Designer.</h1> */}
+
+          <h1>Hi, I’m Victor, I’m a Product Designer.</h1>
           <p>
             I have a Knack for designing, creating and presenting functional
             digital products that exceed expectations, meet user needs and
