@@ -21,9 +21,6 @@
 .header-content h5 {
   font-family: "Metropolis", sans-serif;
   font-weight: lighter;
-  position: relative;
-  animation-name: heading;
-  animation-duration: 3s;
 }
 .header-content h1 {
   font-size: 1.7rem;
@@ -31,17 +28,6 @@
   letter-spacing: -0.1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  position: relative;
-  animation-name: heading;
-  animation-duration: 6s;
-}
-@keyframes heading {
-  0% {
-    top: -1000px;
-  }
-  100% {
-    top: 0px;
-  }
 }
 .header-content p {
   font-size: 0.7rem;
@@ -50,14 +36,7 @@
   animation-name: paragraph;
   animation-duration: 6s;
 }
-@keyframes paragraph {
-  0% {
-    left: -1000px;
-  }
-  100% {
-    left: 0px;
-  }
-}
+
 .header-content button {
   background: #c4c4c4;
   border: 1px solid #000000;
@@ -76,27 +55,14 @@
     font-weight: 800;
     letter-spacing: -0.1rem;
     position: relative;
-    animation-name: heading;
-    animation-duration: 6s;
-    width: 89%;
+
+    width: 70%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  .header-content h5 {
-    position: relative;
-    animation-name: heading;
-    animation-duration: 3s;
-  }
-  @keyframes heading {
-    0% {
-      top: -1000px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
+
   .header-content {
-    width: 100%;
+    width: 80%;
     padding: 30px;
 
     padding-top: 75px;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./components css/header.css";
-// import header from "./images/header.png";
+import text from "./images/text.png";
 
 const Header = () => {
   return (
@@ -8,7 +8,12 @@ const Header = () => {
       <header className="header">
         <main className="header-content">
           <h5>Get Every Single Solution.</h5>
-          <h1>Hi, I’m Victor, I’m a Product Designer.</h1>
+          <img
+            src={text}
+            alt=""
+            style={{ width: "100%", paddingTop: "10px" }}
+          ></img>
+          {/* <h1>Hi, I’m Victor, I’m a Product Designer.</h1> */}
           <p>
             I have a Knack for designing, creating and presenting functional
             digital products that exceed expectations, meet user needs and
