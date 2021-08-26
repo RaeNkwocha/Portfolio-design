@@ -10,11 +10,15 @@
   flex-direction: column;
   padding: 20px;
 }
+.footer-section p {
+  width: 68%;
+}
 .footer h3 {
   padding-bottom: 5px;
 }
 .footer h2 {
   padding-bottom: 10px;
+  /* border-bottom: 1px solid lightgrey; */
 }
 .footer p {
   font-size: 0.7rem;
@@ -34,7 +38,7 @@
     font-size: 0.7rem;
   }
   .footer h2 {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     font-size: 1rem;
   }
   .footer p {

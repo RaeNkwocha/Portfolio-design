@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section>
       <main className="services">
-        <div className="flex-1">
+        <div className="services-flex">
           <h3>Designing With Passion While Exploring The World.</h3>
 
           <h5>
@@ -18,13 +18,14 @@ const Services = () => {
             images.
           </h5>
         </div>
-        <div className="flex-2">
+        <div className="services-flex-2">
           <h3>Any Type Of Query & Discussion.</h3>
 
           <h5>contact me here</h5>
           <h3>quoch999@gmail.com</h3>
         </div>
       </main>
+
       <main className="list-service">
         <h3 className="h3">What Services you will Get from me?</h3>
         <section className="flex-3">

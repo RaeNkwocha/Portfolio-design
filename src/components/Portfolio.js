@@ -14,7 +14,6 @@ const Portfolio = () => {
           <li>UI/UX</li>
           <li>Website</li>
         </ul>
-        {/* <div className="border"></div> */}
       </nav>
 
       <main className="grid">

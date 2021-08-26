@@ -12,6 +12,7 @@ const Hamburger = () => {
         style={{
           display: "flex",
           flexDirection: "column",
+          position: "absolute",
         }}
         className="bm-men"
       >
@@ -25,7 +26,7 @@ const Hamburger = () => {
           Contact
         </a>
         <a onClick={showSettings} className="bm-item-list" href="">
-          Settings
+          Portfolio
         </a>
       </main>
     </Menu>
