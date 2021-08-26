@@ -1,4 +1,4 @@
-// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Contact from "./components/Contact";
 import Contactme from "./components/Contactme";
