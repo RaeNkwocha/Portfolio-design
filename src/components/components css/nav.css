@@ -55,8 +55,9 @@ nav h3 {
   }
 
   .modal {
-    height: 200px;
-    /* position: fixed; */
+    height: 300px;
+    /* position: absolute; */
+    top: 50;
     width: 96%;
     background: black;
     z-index: -100;
@@ -101,14 +102,14 @@ nav h3 {
 
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
+    height: 34px;
+    width: 34px;
   }
 
   /* Color/shape of close button cross */
   .bm-cross {
     background: #bdc3c7;
-    margin: 10px;
+    margin: 5px;
   }
 
   /*
@@ -141,7 +142,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
-    position: relative;
     padding: 0.8em;
     list-style: none;
     text-decoration: none;
