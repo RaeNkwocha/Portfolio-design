@@ -118,7 +118,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .bm-menu-wrap {
     position: absolute;
     top: 50px;
-    margin-right: 0.7rem;
+    margin-right: 0.3rem;
+    overflow-x: hidden;
   }
 
   /* General sidebar styles */
@@ -129,6 +130,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     height: 300px;
     position: absolute;
     font-size: 1.15em;
+    overflow-x: hidden;
   }
 
   /* Morph shape necessary with bubble or elastic */
@@ -143,6 +145,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     padding: 0.8em;
     list-style: none;
     text-decoration: none;
+    overflow-x: hidden;
   }
   .bm-item-list a:hover {
     background-color: white;
