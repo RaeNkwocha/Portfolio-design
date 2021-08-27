@@ -21,8 +21,10 @@ const Nav = () => {
           <Link to="/about">
             <li>About</li>
           </Link>
+          <Link to="/portfolio">
+            <li>Portfolio</li>
+          </Link>
 
-          <li>Portfolio</li>
           <li>Contact</li>
         </ul>
         <div className="hamburger">
