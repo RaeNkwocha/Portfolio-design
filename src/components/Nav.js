@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./components css/nav.css";
 import Hamburger from "./Hamburger";
 
@@ -14,8 +15,13 @@ const Nav = () => {
       <nav className="nav">
         <h3>la cartera</h3>
         <ul className="ul">
-          <li>Home</li>
-          <li>About</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/about">
+            <li>About</li>
+          </Link>
+
           <li>Portfolio</li>
           <li>Contact</li>
         </ul>
