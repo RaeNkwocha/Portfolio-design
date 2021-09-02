@@ -15,17 +15,47 @@ const Nav = () => {
       <nav className="nav">
         <h3>la cartera</h3>
         <ul className="ul">
-          <Link to="/">
+          <Link
+            to="/"
+            style={{
+              listStyle: "none",
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <Link
+            to="/about"
+            style={{
+              listStyle: "none",
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
             <li>About</li>
           </Link>
-          <Link to="/portfolio">
+          <Link
+            to="/portfolio"
+            style={{
+              listStyle: "none",
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
             <li>Portfolio</li>
           </Link>
 
-          <li>Contact</li>
+          <Link
+            to="/contact"
+            style={{
+              listStyle: "none",
+              textDecoration: "none",
+              color: "black",
+            }}
+          >
+            <li>Contact</li>
+          </Link>
         </ul>
         <div className="hamburger">
           <Hamburger></Hamburger>

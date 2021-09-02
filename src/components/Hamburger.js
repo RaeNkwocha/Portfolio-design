@@ -1,11 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { fallDown as Menu } from "react-burger-menu";
 
 const Hamburger = () => {
-  function showSettings(event) {
-    event.preventDefault();
-  }
-
   return (
     <Menu width={"100%"} right>
       <main
@@ -16,18 +14,31 @@ const Hamburger = () => {
         }}
         className="bm-men"
       >
-        <a id="home" className="bm-item-list" href="/">
-          Home
-        </a>
-        <a id="about" className="bm-item-list" href="/about">
-          About
-        </a>
-        <a id="contact" className="bm-item-list" href="/contact">
-          Contact
-        </a>
-        <a onClick={showSettings} className="bm-item-list" href="">
-          Portfolio
-        </a>
+        <Link
+          style={{ listStyle: "none", textDecoration: "none", color: "black" }}
+          to="/"
+        >
+          <li>Home</li>
+        </Link>
+        <Link
+          to="/about"
+          style={{ listStyle: "none", textDecoration: "none", color: "black" }}
+        >
+          <li>About</li>
+        </Link>
+
+        <Link
+          to="/contact"
+          style={{ listStyle: "none", textDecoration: "none", color: "black" }}
+        >
+          <li>Contact</li>
+        </Link>
+        <Link
+          to="/portfolio"
+          style={{ listStyle: "none", textDecoration: "none", color: "black" }}
+        >
+          <li>Portfolio</li>
+        </Link>
       </main>
     </Menu>
   );
