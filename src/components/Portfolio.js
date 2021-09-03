@@ -4,7 +4,7 @@ import "./components css/portfolio.css";
 const Portfolio = () => {
   return (
     <>
-      <nav className="nav">
+      <nav className="nav-1">
         <h3>A Peek At My Portfolio</h3>
 
         <ul>

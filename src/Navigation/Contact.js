@@ -20,9 +20,7 @@ const Call = () => {
           </p>
         </main>
       </header>
-      <section>
-        <Contact></Contact>
-      </section>
+
       <section>
         <Contactme></Contactme>
       </section>

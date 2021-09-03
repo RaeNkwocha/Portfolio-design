@@ -20,11 +20,11 @@ const About = () => {
         </main>
       </header>
       <section>
-        <main className="about-flex">
+        <main className="services">
           <div className="about-box"></div>
-          <div className="about-text">
+          <div className="services-flex">
             <h2>I Create Products Not Just Art.</h2>
-            <p>
+            <h5>
               Hello there! I’m a Product and Interactions designer, I have a
               Knack for designing, creating and presenting functional digital
               products that exceed expectations, meet user needs and business
@@ -33,15 +33,15 @@ const About = () => {
               Product designers for a software company that creates
               multi-faceted products with varying complexities and
               functionalities.
-            </p>
+            </h5>
             {/* <br /> */}
-            <p>
+            <h5>
               I Implement Design Thinking, which enables me design intuitive,
               effective and functional user interfaces while maintaining premium
               aesthetics, my designs are also heavily influenced by research of
               a wide demographic of users and their frustrations and this has
               ultimately resulted in good reviews from users of the products.
-            </p>
+            </h5>
             <div className="resume">Click on this to view my Resume</div>
           </div>
         </main>
