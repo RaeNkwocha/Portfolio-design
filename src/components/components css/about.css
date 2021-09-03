@@ -41,9 +41,10 @@
 .resume {
   width: 250px;
   background: rgba(196, 196, 196, 0.18);
+
   padding: 8px;
   font-size: 0.7rem;
-  margin: 20px;
+  margin: 5px;
 }
 @media (max-width: 400px) {
   .about p {
@@ -98,6 +99,6 @@
     background: rgba(196, 196, 196, 0.18);
     padding: 8px;
     font-size: 0.7rem;
-    margin: 20px;
+    margin: 5px;
   }
 }
